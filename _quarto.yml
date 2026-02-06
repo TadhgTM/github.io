@@ -6,8 +6,6 @@ website:
   title: "Tadhg Taylor-McGreal"
   navbar:
     left:
-      - text: Home
-        href: index.qmd
       - text: Research
         href: research.qmd
       - text: CV
