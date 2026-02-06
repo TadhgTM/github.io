@@ -88,14 +88,14 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Teaching Assistant — Macro-Economics\nMcMaster University\n\nAssisted with undergraduate macroeconomics\nLed tutorials and office hours\nGraded problem sets and exams"
+    "text": "Teaching Assistant — Macroeconomics\nMcMaster University\n\nAssisted with undergraduate macroeconomics\nLed tutorials and office hours\nGraded problem sets and exams"
   },
   {
     "objectID": "teaching.html#teaching-experience",
     "href": "teaching.html#teaching-experience",
     "title": "Teaching",
     "section": "",
-    "text": "Teaching Assistant — Macro-Economics\nMcMaster University\n\nAssisted with undergraduate macroeconomics\nLed tutorials and office hours\nGraded problem sets and exams"
+    "text": "Teaching Assistant — Macroeconomics\nMcMaster University\n\nAssisted with undergraduate macroeconomics\nLed tutorials and office hours\nGraded problem sets and exams"
   },
   {
     "objectID": "teaching.html#teaching-interests",
@@ -135,7 +135,7 @@
   {
     "objectID": "EDITING.html",
     "href": "EDITING.html",
-    "title": "Tadhg Taylor-McGreal",
+    "title": "TADHG TAYLOR-MCGREAL",
     "section": "",
     "text": "Editing Guide\nQuick edits 1. Homepage text: index.qmd 2. Research page: research.qmd 3. CV page: cv.qmd 4. Teaching page: teaching.qmd 5. Code & Data: code.qmd 6. Blog landing: blog.qmd 7. Hidden policy page: policy-applications.qmd 8. Styling: styles.css\nAdd a working paper (paste into research.qmd)\n### Title of Paper  \n**Your Name**\n\nShort 2–3 sentence description.\n\n- [Paper (PDF)](assets/papers/your_file.pdf)\n- Code & replication materials (GitHub)\n- Slides (coming soon)\nAdd a blog post 1. Copy posts/_template.qmd to a new file in posts/. 2. Name it like YYYY-MM-DD-short-title.qmd. 3. Fill in the title, date, description, and body.\nPublish changes 1. quarto render 2. git add docs 3. git commit -m \"Update site\" 4. git push"
   },
