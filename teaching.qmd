@@ -4,10 +4,10 @@ title: "Teaching"
 
 ## Teaching Experience
 
-**Teaching Assistant — Economics**  
+**Teaching Assistant — Macro-Economics**  
 McMaster University
 
-- Assisted with undergraduate microeconomics and macroeconomics courses
+- Assisted with undergraduate macroeconomics
 - Led tutorials and office hours
 - Graded problem sets and exams
 
@@ -15,4 +15,4 @@ McMaster University
 
 ## Teaching Interests
 
-Macroeconomics · Climate Economics · Trade & Industrial Policy · Applied General Equilibrium
+Macroeconomics · Econometrics · Trade & Industrial Policy
