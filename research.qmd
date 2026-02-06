@@ -13,19 +13,26 @@ These tools are applied to questions in energy and climate policy, trade and ind
 
 I develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.
 
-- [Paper (PDF)](assets/papers/carbon_tax_ge.pdf)
+- [Paper](assets/papers/carbon_tax_ge.pdf)
 - Code & replication materials (GitHub)
-- Slides (coming soon)
 
 ---
 
-## Work in Progress
+## Work in Process
 
 ### Policy Constraints, Production Networks, and Endogenous Investment
 
 This project studies how trade restrictions, policy uncertainty, and input constraints propagate through production networks and alter firms’ incentives to invest in capacity, sourcing flexibility, and technology adoption. I characterize when constraints induce adaptive reorganization versus persistent fragility, with implications for supply-chain security, energy dependence, and exposure to geopolitical shocks.
 
 The framework is designed to identify leverage points and bottlenecks that are not visible in partial-equilibrium or sector-isolated analyses.
+
+---
+
+### Neural Networks in Strategic Environments
+
+I developed a convolutional neural network to study the limits of pure function approximation in high-dimensional strategic settings. Using chess as a controlled environment, the model maps raw board states to position evaluations without search, rollout, or lookahead.
+
+The project examines when pattern recognition succeeds in adversarial environments and when it fails due to strategic nonlocality, path dependence, and regime shifts. Results highlight systematic failure modes of static predictors when incentives, constraints, or opponent responses change—providing insight into the limits of reduced-form prediction in strategic economic and policy contexts.
 
 ---
 
