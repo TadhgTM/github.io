@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Short essays on strategic competition, systemic risk, and the political economy of security.\n\n\n\n\n\n\n\n\n\n\n\nStrategic Frictions and Systemic Risk\n\n\nWhy small policy frictions can cascade through production networks and reshape power dynamics.\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tadhg Taylor-McGreal",
+    "section": "",
+    "text": "Tadhg Taylor-McGreal\nEconomics student at McMaster University\nFocused on the interplay between human-capital ecosystems, strategic resource allocation, and the security dimensions of global markets.\nI study how innovation asymmetries and frictions amplify systemic risks, influence adversarial statecraft, and reshape power dynamics between nations. I aim to uncover vulnerabilities and leverage points within interconnected systems.\nCareer focus: National security, economic resilience, and strategic competition.\nResearch interests:\nMacroeconomics · General Equilibrium · Production Networks · Energy & Climate Policy · Industrial Policy · Security Economics\nLinks\n- Curriculum Vitae (PDF) - GitHub - Google Scholar (coming soon) - Email: t.taylormcgreal@gmail.com"
+  },
+  {
+    "objectID": "posts/2026-02-06-strategic-frictions.html",
+    "href": "posts/2026-02-06-strategic-frictions.html",
+    "title": "Strategic Frictions and Systemic Risk",
+    "section": "",
+    "text": "Policy frictions are rarely isolated. In tightly coupled economies, small distortions can propagate through production networks, magnify uncertainty, and alter the strategic calculus of states and firms. My interest is in identifying which nodes and linkages act as accelerants, and where targeted intervention can dampen systemic risk without imposing persistent misallocation."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Tadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper (PDF)\nCode & replication materials (GitHub)\nSlides (coming soon)"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "Tadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper (PDF)\nCode & replication materials (GitHub)\nSlides (coming soon)"
+  },
+  {
+    "objectID": "research.html#work-in-progress",
+    "href": "research.html#work-in-progress",
+    "title": "Research",
+    "section": "Work in Progress",
+    "text": "Work in Progress\n\nPolicy Constraints, Production Networks, and Endogenous Investment\nI study how trade restrictions and policy uncertainty propagate through production networks, altering firms’ incentives to invest in sourcing flexibility and productive capacity."
+  },
+  {
+    "objectID": "research.html#past-related-projects",
+    "href": "research.html#past-related-projects",
+    "title": "Research",
+    "section": "Past & Related Projects",
+    "text": "Past & Related Projects\n\nStatic GE Model of Carbon Pricing in Canada\nMulti-sector model calibrated to Statistics Canada data to study energy substitution and emissions responses.\nNeural Networks in Strategic Environments\nZero-lookahead chess engine exploring limits of function approximation in high-dimensional strategic settings."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching Assistant — Economics\nMcMaster University\n\nAssisted with undergraduate microeconomics and macroeconomics courses\nLed tutorials and office hours\nGraded problem sets and exams"
+  },
+  {
+    "objectID": "teaching.html#teaching-experience",
+    "href": "teaching.html#teaching-experience",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching Assistant — Economics\nMcMaster University\n\nAssisted with undergraduate microeconomics and macroeconomics courses\nLed tutorials and office hours\nGraded problem sets and exams"
+  },
+  {
+    "objectID": "teaching.html#teaching-interests",
+    "href": "teaching.html#teaching-interests",
+    "title": "Teaching",
+    "section": "Teaching Interests",
+    "text": "Teaching Interests\nMacroeconomics · Climate Economics · Trade & Industrial Policy · Applied General Equilibrium"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Short technical notes on models, data sources, and methods.\nUpdated intermittently."
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Code & Data",
+    "section": "",
+    "text": "Python, NumPy, SciPy\nDynamic and static GE models of the Canadian economy with heterogeneous energy technologies.\n\nGitHub: https://github.com/TadhgTM/Energy-Taxation-Project\n\n\n\n\n\nSimulation tools for studying investment and reallocation in constrained supply networks."
+  },
+  {
+    "objectID": "code.html#research-code",
+    "href": "code.html#research-code",
+    "title": "Code & Data",
+    "section": "",
+    "text": "Python, NumPy, SciPy\nDynamic and static GE models of the Canadian economy with heterogeneous energy technologies.\n\nGitHub: https://github.com/TadhgTM/Energy-Taxation-Project\n\n\n\n\n\nSimulation tools for studying investment and reallocation in constrained supply networks."
+  },
+  {
+    "objectID": "code.html#replication-tools",
+    "href": "code.html#replication-tools",
+    "title": "Code & Data",
+    "section": "Replication & Tools",
+    "text": "Replication & Tools\n\nGE solvers and calibration routines\nVisualization and policy counterfactual tools"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "You can download my CV here:\n👉 Taylor-McGreal CV (PDF)"
+  }
+]

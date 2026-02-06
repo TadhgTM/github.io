@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
+
+:root {
+  --bg-0: #0b0f16;
+  --bg-1: #0f1522;
+  --bg-2: #131b2b;
+  --ink-0: #e6eefc;
+  --ink-1: #c8d4ea;
+  --ink-2: #9fb0cf;
+  --accent-0: #5cc8ff;
+  --accent-1: #a7b7ff;
+  --accent-2: #7e8aa6;
+  --border-0: rgba(130, 150, 190, 0.28);
+  --shadow-0: 0 14px 40px rgba(0, 0, 0, 0.45);
+  --grid-line: rgba(120, 160, 220, 0.05);
+}
+
+body {
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  color: var(--ink-0);
+  background-color: var(--bg-0);
+  background-image:
+    radial-gradient(900px 520px at 14% -10%, rgba(92, 200, 255, 0.12), transparent 60%),
+    radial-gradient(800px 520px at 90% -20%, rgba(167, 183, 255, 0.12), transparent 60%),
+    linear-gradient(180deg, rgba(11, 15, 22, 0.96) 0%, rgba(15, 21, 34, 0.98) 50%, rgba(19, 27, 43, 0.98) 100%),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(0deg, var(--grid-line) 1px, transparent 1px);
+  background-size: auto, auto, auto, 120px 120px, 120px 120px;
+  background-position: center top;
+}
+
+main.content {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.6rem 1.6rem 4.2rem;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: "Impact", "Haettenschweiler", "Arial Black", sans-serif;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 2.7vw, 3.1rem);
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-top: 1.7em;
+  font-size: 1.65rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  color: var(--ink-1);
+}
+
+a {
+  color: var(--accent-0);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8ad9ff;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: rgba(11, 15, 22, 0.95);
+  border-bottom: 1px solid var(--border-0);
+  box-shadow: var(--shadow-0);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.navbar a {
+  color: var(--ink-1);
+  letter-spacing: 0.5px;
+}
+
+.navbar a:hover {
+  color: var(--accent-0);
+}
+
+.hero {
+  background: linear-gradient(140deg, rgba(19, 27, 43, 0.92), rgba(9, 12, 20, 0.92));
+  border: 1px solid var(--border-0);
+  border-radius: 16px;
+  padding: 2.4rem 2.6rem;
+  box-shadow: var(--shadow-0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 1.1rem;
+  right: 1.1rem;
+  width: 70px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-0), transparent);
+}
+
+.hero strong {
+  color: var(--ink-0);
+}
+
+hr {
+  border-top: 1px solid var(--border-0);
+}
+
+.quarto-listing-container {
+  margin-top: 1.8rem;
+}
+
+.quarto-grid-item {
+  background: rgba(15, 21, 34, 0.86);
+  border: 1px solid var(--border-0);
+  border-radius: 14px;
+  padding: 1.35rem 1.4rem;
+  box-shadow: var(--shadow-0);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-4px);
+  border-color: rgba(92, 200, 255, 0.5);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.55);
+}
+
+.quarto-grid-item .listing-title {
+  font-weight: 600;
+  color: var(--ink-0);
+}
+
+.quarto-grid-item .listing-description {
+  color: var(--ink-2);
+}
+
+.quarto-grid-item .listing-date {
+  color: var(--accent-2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+}
+
+code, pre {
+  color: var(--ink-0);
+  background: rgba(15, 21, 34, 0.8);
+  border: 1px solid var(--border-0);
+}
+
+::selection {
+  background: rgba(92, 200, 255, 0.35);
+}
+
+@media (max-width: 760px) {
+  main.content {
+    padding: 2rem 1.1rem 3.2rem;
+  }
+
+  .hero {
+    padding: 2rem 1.6rem;
+  }
+}
