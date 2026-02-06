@@ -1,9 +1,0 @@
-scenario,metric,CAN,USA
-25% Unilateral,welfare_pct,-1.9821,0.0451
-25% Trade War,welfare_pct,-1.7650,-0.0155
-10%+China60 Unilateral,welfare_pct,-1.0302,0.2309
-10%+China60 Trade War,welfare_pct,-0.8334,-0.1648
-25% Unilateral,per_capita_usd,-1057.88,36.84
-25% Trade War,per_capita_usd,-942.01,-12.66
-10%+China60 Unilateral,per_capita_usd,-549.84,188.63
-10%+China60 Trade War,per_capita_usd,-444.80,134.63

@@ -39,14 +39,14 @@
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "You can download my CV here:\n👉 Taylor-McGreal CV (PDF)"
+    "text": "You can download my CV here:\nTaylor-McGreal CV (PDF)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tadhg Taylor-McGreal",
     "section": "",
-    "text": "Tadhg Taylor-McGreal\nMA Economics, McMaster University\nI am an economist studying how policy-imposed constraints and external shocks propagate through interconnected production systems. My work focuses on identifying when trade restrictions, energy disruptions, and industrial policy interventions induce adaptive reallocation—and when they instead generate persistent vulnerabilities and systemic risk.\nUsing static and dynamic general equilibrium models with production networks and capital adjustment, I analyze how investment incentives, substitution elasticities, and network structure shape aggregate resilience. My research is motivated by questions central to economic security, including supply-chain robustness, energy dependence, and exposure to geopolitical shocks.\nMy work is intended to support forward-looking risk assessment in environments characterized by strategic interaction, uncertainty, and incomplete information.\nResearch interests:\nMacroeconomics · General Equilibrium · Production Networks · Energy & Climate Policy · Industrial Policy · Economic Security\nLinks\n- Curriculum Vitae (PDF) - GitHub - Google Scholar (coming soon) - Email: t.taylormcgreal@gmail.com"
+    "text": "Tadhg Taylor-McGreal\nMAEP Economics, McMaster University\nI am studying how policy-imposed frictions and external shocks propagate through interconnected production systems. My work focuses on identifying when trade restrictions, energy disruptions, and industrial policy interventions induce adaptive reallocation, and when they instead generate persistent vulnerabilities and systemic risk.\nUsing dynamic AGE models, I study how investment incentives, substitution elasticities, and network structure shape aggregate resilience. My research is motivated by questions central to economic security, including supply-chain robustness, energy dependence, and exposure to geopolitical shocks.\nMy work is intended to support forward-looking risk assessment in environments characterized by strategic interaction, uncertainty, and incomplete information.\nResearch interests:\nMacroeconomics · Production Networks · Energy Policy · Industrial Policy · Economic Security\nLinks\n- Curriculum Vitae (PDF) - GitHub - Email: t.taylormcgreal@gmail.com"
   },
   {
     "objectID": "posts/2026-02-06-strategic-frictions.html",
@@ -67,14 +67,14 @@
     "href": "research.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\nOptimal Carbon Taxation in a Dynamic General Equilibrium Economy\nTadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper (PDF)\nCode & replication materials (GitHub)\nSlides (coming soon)"
+    "text": "Working Papers\n\nOptimal Carbon Taxation in a Dynamic General Equilibrium Economy\nTadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper\nCode & replication materials (GitHub)"
   },
   {
-    "objectID": "research.html#work-in-progress",
-    "href": "research.html#work-in-progress",
+    "objectID": "research.html#work-in-process",
+    "href": "research.html#work-in-process",
     "title": "Research",
-    "section": "Work in Progress",
-    "text": "Work in Progress\n\nPolicy Constraints, Production Networks, and Endogenous Investment\nThis project studies how trade restrictions, policy uncertainty, and input constraints propagate through production networks and alter firms’ incentives to invest in capacity, sourcing flexibility, and technology adoption. I characterize when constraints induce adaptive reorganization versus persistent fragility, with implications for supply-chain security, energy dependence, and exposure to geopolitical shocks.\nThe framework is designed to identify leverage points and bottlenecks that are not visible in partial-equilibrium or sector-isolated analyses."
+    "section": "Work in Process",
+    "text": "Work in Process\n\nPolicy Constraints, Production Networks, and Endogenous Investment\nThis project studies how trade restrictions, policy uncertainty, and input constraints propagate through production networks and alter firms’ incentives to invest in capacity, sourcing flexibility, and technology adoption. I characterize when constraints induce adaptive reorganization versus persistent fragility, with implications for supply-chain security, energy dependence, and exposure to geopolitical shocks.\nThe framework is designed to identify leverage points and bottlenecks that are not visible in partial-equilibrium or sector-isolated analyses.\n\n\n\nNeural Networks in Strategic Environments\nI developed a convolutional neural network to study the limits of pure function approximation in high-dimensional strategic settings. Using chess as a controlled environment, the model maps raw board states to position evaluations without search, rollout, or lookahead.\nThe project examines when pattern recognition succeeds in adversarial environments and when it fails due to strategic nonlocality, path dependence, and regime shifts. Results highlight systematic failure modes of static predictors when incentives, constraints, or opponent responses change—providing insight into the limits of reduced-form prediction in strategic economic and policy contexts."
   },
   {
     "objectID": "research.html#past-related-projects",
@@ -88,21 +88,21 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Teaching Assistant — Economics\nMcMaster University\n\nAssisted with undergraduate microeconomics and macroeconomics courses\nLed tutorials and office hours\nGraded problem sets and exams"
+    "text": "Teaching Assistant — Macro-Economics\nMcMaster University\n\nAssisted with undergraduate macroeconomics\nLed tutorials and office hours\nGraded problem sets and exams"
   },
   {
     "objectID": "teaching.html#teaching-experience",
     "href": "teaching.html#teaching-experience",
     "title": "Teaching",
     "section": "",
-    "text": "Teaching Assistant — Economics\nMcMaster University\n\nAssisted with undergraduate microeconomics and macroeconomics courses\nLed tutorials and office hours\nGraded problem sets and exams"
+    "text": "Teaching Assistant — Macro-Economics\nMcMaster University\n\nAssisted with undergraduate macroeconomics\nLed tutorials and office hours\nGraded problem sets and exams"
   },
   {
     "objectID": "teaching.html#teaching-interests",
     "href": "teaching.html#teaching-interests",
     "title": "Teaching",
     "section": "Teaching Interests",
-    "text": "Teaching Interests\nMacroeconomics · Climate Economics · Trade & Industrial Policy · Applied General Equilibrium"
+    "text": "Teaching Interests\nMacroeconomics · Econometrics · Trade & Industrial Policy"
   },
   {
     "objectID": "notes.html",
