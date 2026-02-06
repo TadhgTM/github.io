@@ -40,6 +40,3 @@ The project examines when pattern recognition succeeds in adversarial environmen
 
 - **Static GE Model of Carbon Pricing in Canada**  
   Multi-sector model calibrated to Statistics Canada data to study energy substitution and emissions responses.
-
-- **Neural Networks in Strategic Environments**  
-  Zero-lookahead chess engine exploring limits of function approximation in high-dimensional strategic settings.
