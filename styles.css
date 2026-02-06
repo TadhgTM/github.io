@@ -85,13 +85,31 @@ main.content.column-page,
 }
 
 #title-block-header .quarto-title {
-  display: block;
+  display: block !important;
   width: 100%;
 }
 
 #title-block-header {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+#title-block-header .quarto-title,
+#title-block-header .quarto-title-meta {
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+#title-block-header .title {
+  display: block !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+
+.column-page,
+.page-columns {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .navbar-container,
