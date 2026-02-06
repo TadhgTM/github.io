@@ -1,60 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Sora:wght@400;500;600&display=swap");
 
 :root {
-  --bg-0: #0b0f16;
-  --bg-1: #0f1522;
-  --bg-2: #131b2b;
-  --ink-0: #e6eefc;
-  --ink-1: #c8d4ea;
-  --ink-2: #9fb0cf;
-  --accent-0: #f3c677;
-  --accent-1: #d9a441;
-  --accent-2: #8d8f9a;
-  --border-0: rgba(130, 150, 190, 0.28);
-  --shadow-0: 0 14px 40px rgba(0, 0, 0, 0.45);
-  --grid-line: rgba(170, 160, 140, 0.05);
+  --bg-0: #080b11;
+  --bg-1: #0f1420;
+  --bg-2: #141c2b;
+  --ink-0: #f1f4fb;
+  --ink-1: #c7d0e0;
+  --ink-2: #8a96ac;
+  --accent-0: #5eead4;
+  --accent-1: #2dd4bf;
+  --accent-2: #7c8aa5;
+  --border-0: rgba(130, 145, 170, 0.28);
+  --border-1: rgba(94, 234, 212, 0.25);
+  --shadow-0: 0 18px 44px rgba(0, 0, 0, 0.48);
+  --shadow-1: 0 10px 26px rgba(0, 0, 0, 0.35);
+  --grid-line: rgba(120, 145, 190, 0.06);
 }
 
 body {
   font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.02rem;
-  line-height: 1.65;
+  line-height: 1.7;
   color: var(--ink-0);
   background-color: var(--bg-0);
   background-image:
-    radial-gradient(900px 520px at 14% -10%, rgba(243, 198, 119, 0.10), transparent 60%),
-    radial-gradient(800px 520px at 90% -20%, rgba(156, 144, 118, 0.12), transparent 60%),
-    linear-gradient(180deg, rgba(11, 15, 22, 0.96) 0%, rgba(15, 21, 34, 0.98) 50%, rgba(19, 27, 43, 0.98) 100%),
+    url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%201200%20800%27%3E%0A%3Cg%20fill%3D%27none%27%20stroke%3D%27%235eead4%27%20stroke-opacity%3D%270.12%27%20stroke-width%3D%271%27%3E%0A%3Cpath%20d%3D%27M40%20180%20C%20260%20120%20440%20120%20660%20180%27/%3E%0A%3Cpath%20d%3D%27M120%20340%20C%20340%20280%20520%20280%20760%20340%27/%3E%0A%3Cpath%20d%3D%27M200%20520%20C%20420%20460%20640%20460%20860%20520%27/%3E%0A%3Cpath%20d%3D%27M80%20120%20C%20320%20200%20520%20200%20760%20120%27/%3E%0A%3Cpath%20d%3D%27M160%20640%20C%20400%20560%20640%20560%20880%20640%27/%3E%0A%3C/g%3E%0A%3Cg%20fill%3D%27%235eead4%27%20fill-opacity%3D%270.08%27%3E%0A%3Ccircle%20cx%3D%27260%27%20cy%3D%27200%27%20r%3D%274%27/%3E%0A%3Ccircle%20cx%3D%27520%27%20cy%3D%27280%27%20r%3D%273%27/%3E%0A%3Ccircle%20cx%3D%27740%27%20cy%3D%27360%27%20r%3D%274%27/%3E%0A%3Ccircle%20cx%3D%27900%27%20cy%3D%27520%27%20r%3D%273%27/%3E%0A%3C/g%3E%0A%3C/svg%3E"),
     linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
-    linear-gradient(0deg, var(--grid-line) 1px, transparent 1px);
-  background-size: auto, auto, auto, 120px 120px, 120px 120px;
-  background-position: center top;
+    linear-gradient(0deg, var(--grid-line) 1px, transparent 1px),
+    radial-gradient(760px 420px at 12% -10%, rgba(94, 234, 212, 0.12), transparent 60%),
+    radial-gradient(680px 360px at 88% -20%, rgba(94, 121, 160, 0.18), transparent 60%),
+    linear-gradient(180deg, rgba(8, 11, 17, 0.98) 0%, rgba(15, 20, 32, 0.98) 45%, rgba(20, 28, 43, 0.98) 100%);
+  background-size: 1400px auto, 140px 140px, 140px 140px, auto, auto, auto;
+  background-position: center 120px, center top, center top, center top, center top, center top;
+  background-repeat: no-repeat, repeat, repeat, no-repeat, no-repeat, no-repeat;
 }
 
 main.content {
-  max-width: 1120px;
+  max-width: 1080px;
   margin: 0 auto;
-  padding: 2.6rem 1.6rem 4.2rem;
+  padding: 2.8rem 1.6rem 4.4rem;
 }
 
 h1, h2, h3, .navbar-brand {
-  font-family: "Space Grotesk", "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.3px;
-  text-transform: none;
+  font-family: "Sora", "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 h1 {
-  font-size: clamp(2.2rem, 2.7vw, 3.1rem);
-  margin-bottom: 0.5rem;
+  font-size: clamp(2.3rem, 2.8vw, 3.2rem);
+  margin-bottom: 0.7rem;
 }
 
 h2 {
-  margin-top: 1.7em;
-  font-size: 1.65rem;
+  margin-top: 1.9em;
+  font-size: 1.55rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 p {
@@ -67,24 +71,27 @@ a {
 }
 
 a:hover {
-  color: #ffd992;
+  color: #9cf0e2;
   text-decoration: underline;
 }
 
 .navbar {
-  background-color: rgba(11, 15, 22, 0.95);
+  background-color: rgba(8, 11, 17, 0.96);
   border-bottom: 1px solid var(--border-0);
-  box-shadow: var(--shadow-0);
+  box-shadow: var(--shadow-1);
+  backdrop-filter: blur(12px);
 }
 
 .navbar-brand {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 
 .navbar a {
   color: var(--ink-1);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
 }
 
 .navbar a:hover {
@@ -92,22 +99,33 @@ a:hover {
 }
 
 .hero {
-  background: linear-gradient(140deg, rgba(19, 27, 43, 0.92), rgba(9, 12, 20, 0.92));
+  background: rgba(10, 14, 22, 0.85);
   border: 1px solid var(--border-0);
-  border-radius: 16px;
-  padding: 2.4rem 2.6rem;
+  border-radius: 14px;
+  padding: 2.7rem 2.8rem;
   box-shadow: var(--shadow-0);
   position: relative;
   overflow: hidden;
+  backdrop-filter: blur(6px);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent-0), transparent);
 }
 
 .hero::after {
   content: "";
   position: absolute;
-  top: 1.1rem;
-  right: 1.1rem;
-  width: 70px;
-  height: 3px;
+  top: 1.2rem;
+  right: 1.2rem;
+  width: 90px;
+  height: 2px;
   background: linear-gradient(90deg, var(--accent-0), transparent);
 }
 
@@ -120,22 +138,34 @@ hr {
 }
 
 .quarto-listing-container {
-  margin-top: 1.8rem;
+  margin-top: 2rem;
 }
 
 .quarto-grid-item {
-  background: rgba(15, 21, 34, 0.86);
+  position: relative;
+  background: rgba(12, 16, 26, 0.88);
   border: 1px solid var(--border-0);
-  border-radius: 14px;
-  padding: 1.35rem 1.4rem;
+  border-radius: 12px;
+  padding: 1.4rem 1.5rem;
   box-shadow: var(--shadow-0);
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+.quarto-grid-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent-0), transparent);
+  opacity: 0.6;
+}
+
 .quarto-grid-item:hover {
   transform: translateY(-4px);
-  border-color: rgba(92, 200, 255, 0.5);
-  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.55);
+  border-color: var(--border-1);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.55);
 }
 
 .quarto-grid-item .listing-title {
@@ -150,26 +180,39 @@ hr {
 .quarto-grid-item .listing-date {
   color: var(--accent-2);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  font-size: 0.72rem;
+}
+
+blockquote {
+  border-left: 2px solid var(--accent-0);
+  margin: 1.5rem 0;
+  padding: 0.4rem 1.2rem;
+  color: var(--ink-2);
+  background: rgba(12, 16, 26, 0.65);
 }
 
 code, pre {
+  font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
   color: var(--ink-0);
-  background: rgba(15, 21, 34, 0.8);
+  background: rgba(12, 16, 26, 0.85);
   border: 1px solid var(--border-0);
 }
 
 ::selection {
-  background: rgba(92, 200, 255, 0.35);
+  background: rgba(94, 234, 212, 0.28);
 }
 
 @media (max-width: 760px) {
   main.content {
-    padding: 2rem 1.1rem 3.2rem;
+    padding: 2.1rem 1.1rem 3.4rem;
   }
 
   .hero {
-    padding: 2rem 1.6rem;
+    padding: 2.1rem 1.6rem;
+  }
+
+  h1 {
+    letter-spacing: 0.08em;
   }
 }
