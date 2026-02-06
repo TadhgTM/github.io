@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap");
 
 :root {
   --bg-0: #0b0f16;
@@ -7,12 +7,12 @@
   --ink-0: #e6eefc;
   --ink-1: #c8d4ea;
   --ink-2: #9fb0cf;
-  --accent-0: #5cc8ff;
-  --accent-1: #a7b7ff;
-  --accent-2: #7e8aa6;
+  --accent-0: #f3c677;
+  --accent-1: #d9a441;
+  --accent-2: #8d8f9a;
   --border-0: rgba(130, 150, 190, 0.28);
   --shadow-0: 0 14px 40px rgba(0, 0, 0, 0.45);
-  --grid-line: rgba(120, 160, 220, 0.05);
+  --grid-line: rgba(170, 160, 140, 0.05);
 }
 
 body {
@@ -22,8 +22,8 @@ body {
   color: var(--ink-0);
   background-color: var(--bg-0);
   background-image:
-    radial-gradient(900px 520px at 14% -10%, rgba(92, 200, 255, 0.12), transparent 60%),
-    radial-gradient(800px 520px at 90% -20%, rgba(167, 183, 255, 0.12), transparent 60%),
+    radial-gradient(900px 520px at 14% -10%, rgba(243, 198, 119, 0.10), transparent 60%),
+    radial-gradient(800px 520px at 90% -20%, rgba(156, 144, 118, 0.12), transparent 60%),
     linear-gradient(180deg, rgba(11, 15, 22, 0.96) 0%, rgba(15, 21, 34, 0.98) 50%, rgba(19, 27, 43, 0.98) 100%),
     linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
     linear-gradient(0deg, var(--grid-line) 1px, transparent 1px);
@@ -38,9 +38,9 @@ main.content {
 }
 
 h1, h2, h3, .navbar-brand {
-  font-family: "Impact", "Haettenschweiler", "Arial Black", sans-serif;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
+  font-family: "Space Grotesk", "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.3px;
+  text-transform: none;
 }
 
 h1 {
@@ -67,7 +67,7 @@ a {
 }
 
 a:hover {
-  color: #8ad9ff;
+  color: #ffd992;
   text-decoration: underline;
 }
 
