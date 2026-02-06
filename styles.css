@@ -1,24 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@200;300;400;500;600&display=swap");
 
 :root {
-  --bg-0: #050607;
-  --bg-1: #0a0b0f;
-  --bg-2: #0e1117;
-  --ink-0: #f8f9fb;
-  --ink-1: #e1e4eb;
-  --ink-2: #a5aebc;
-  --accent-0: #f1f3f7;
-  --accent-1: #c8ced9;
-  --accent-2: #7f8898;
+  --bg-0: #050505;
+  --bg-1: #0a0a0a;
+  --bg-2: #0f1114;
+  --ink-0: #f5f6f8;
+  --ink-1: #d9dde5;
+  --ink-2: #a3aab6;
+  --accent-0: #f5f6f8;
+  --accent-1: #bfc6d2;
+  --accent-2: #7a828f;
   --border-0: rgba(255, 255, 255, 0.08);
-  --border-1: rgba(255, 255, 255, 0.18);
-  --shadow-0: 0 18px 44px rgba(0, 0, 0, 0.48);
-  --shadow-1: 0 8px 22px rgba(0, 0, 0, 0.32);
-  --grid-line: rgba(255, 255, 255, 0.035);
+  --border-1: rgba(255, 255, 255, 0.16);
+  --shadow-0: none;
+  --shadow-1: none;
+  --grid-line: rgba(255, 255, 255, 0.03);
 }
 
 html, body {
   min-height: 100%;
+  height: 100%;
   background-color: var(--bg-0);
 }
 
@@ -30,11 +31,11 @@ body {
   color: var(--ink-0);
   background-color: var(--bg-0);
   background-image:
-    url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%201200%20800%27%3E%0A%3Cg%20fill%3D%27none%27%20stroke%3D%27%23c7cbd4%27%20stroke-opacity%3D%270.10%27%20stroke-width%3D%271%27%3E%0A%3Cpath%20d%3D%27M40%20180%20C%20260%20120%20440%20120%20660%20180%27/%3E%0A%3Cpath%20d%3D%27M120%20340%20C%20340%20280%20520%20280%20760%20340%27/%3E%0A%3Cpath%20d%3D%27M200%20520%20C%20420%20460%20640%20460%20860%20520%27/%3E%0A%3Cpath%20d%3D%27M80%20120%20C%20320%20200%20520%20200%20760%20120%27/%3E%0A%3Cpath%20d%3D%27M160%20640%20C%20400%20560%20640%20560%20880%20640%27/%3E%0A%3C/g%3E%0A%3Cg%20fill%3D%27%23c7cbd4%27%20fill-opacity%3D%270.06%27%3E%0A%3Ccircle%20cx%3D%27260%27%20cy%3D%27200%27%20r%3D%274%27/%3E%0A%3Ccircle%20cx%3D%27520%27%20cy%3D%27280%27%20r%3D%273%27/%3E%0A%3Ccircle%20cx%3D%27740%27%20cy%3D%27360%27%20r%3D%274%27/%3E%0A%3Ccircle%20cx%3D%27900%27%20cy%3D%27520%27%20r%3D%273%27/%3E%0A%3C/g%3E%0A%3C/svg%3E"),
+    url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%201200%20800%27%3E%0A%3Cg%20fill%3D%27none%27%20stroke%3D%27%23c7cbd4%27%20stroke-opacity%3D%270.06%27%20stroke-width%3D%271%27%3E%0A%3Cpath%20d%3D%27M40%20180%20C%20260%20120%20440%20120%20660%20180%27/%3E%0A%3Cpath%20d%3D%27M120%20340%20C%20340%20280%20520%20280%20760%20340%27/%3E%0A%3Cpath%20d%3D%27M200%20520%20C%20420%20460%20640%20460%20860%20520%27/%3E%0A%3Cpath%20d%3D%27M80%20120%20C%20320%20200%20520%20200%20760%20120%27/%3E%0A%3Cpath%20d%3D%27M160%20640%20C%20400%20560%20640%20560%20880%20640%27/%3E%0A%3C/g%3E%0A%3Cg%20fill%3D%27%23c7cbd4%27%20fill-opacity%3D%270.03%27%3E%0A%3Ccircle%20cx%3D%27260%27%20cy%3D%27200%27%20r%3D%274%27/%3E%0A%3Ccircle%20cx%3D%27520%27%20cy%3D%27280%27%20r%3D%273%27/%3E%0A%3Ccircle%20cx%3D%27740%27%20cy%3D%27360%27%20r%3D%274%27/%3E%0A%3Ccircle%20cx%3D%27900%27%20cy%3D%27520%27%20r%3D%273%27/%3E%0A%3C/g%3E%0A%3C/svg%3E"),
     linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
     linear-gradient(0deg, var(--grid-line) 1px, transparent 1px),
-    linear-gradient(180deg, rgba(5, 6, 7, 0.98) 0%, rgba(10, 11, 15, 0.98) 50%, rgba(14, 17, 23, 0.98) 100%);
-  background-size: 1600px auto, 160px 160px, 160px 160px, auto;
+    linear-gradient(180deg, rgba(5, 5, 5, 0.98) 0%, rgba(10, 10, 10, 0.98) 50%, rgba(15, 17, 20, 0.98) 100%);
+  background-size: 1800px auto, 180px 180px, 180px 180px, auto;
   background-position: center 120px, center top, center top, center top;
   background-repeat: no-repeat, repeat, repeat, no-repeat;
   background-attachment: scroll;
@@ -43,30 +44,30 @@ body {
 main.content {
   max-width: 1040px;
   margin: 0 auto;
-  padding: 2.8rem 1.6rem 4.6rem;
+  padding: 2.8rem 1.6rem 4.8rem;
 }
 
 h1, h2, h3, .navbar-brand {
   font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
 }
 
 h1 {
-  font-size: clamp(2.2rem, 2.6vw, 3.1rem);
-  margin-bottom: 0.8rem;
-  font-weight: 500;
+  font-size: clamp(2.15rem, 2.5vw, 3rem);
+  margin-bottom: 0.9rem;
+  font-weight: 400;
 }
 
 h2 {
-  margin-top: 1.9em;
-  font-size: 1.5rem;
-  font-weight: 500;
+  margin-top: 2em;
+  font-size: 1.45rem;
+  font-weight: 400;
 }
 
 h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1.05rem;
+  font-weight: 400;
 }
 
 p {
@@ -74,32 +75,32 @@ p {
 }
 
 a {
-  color: var(--accent-0);
+  color: var(--ink-0);
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffffff;
+  color: var(--ink-1);
   text-decoration: underline;
 }
 
 .navbar {
-  background-color: rgba(5, 6, 7, 0.96);
+  background-color: rgba(5, 5, 5, 0.96);
   border-bottom: 1px solid var(--border-0);
   box-shadow: none;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(4px);
 }
 
 .navbar-brand {
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 500;
+  font-size: 0.85rem;
 }
 
 .navbar a {
   color: var(--ink-1);
-  letter-spacing: 0.18em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 400;
 }
 
@@ -108,34 +109,19 @@ a:hover {
 }
 
 .hero {
-  background: rgba(7, 9, 13, 0.9);
+  background: rgba(5, 5, 5, 0.75);
   border: 1px solid var(--border-0);
-  border-radius: 6px;
-  padding: 2.5rem 2.6rem;
+  border-radius: 4px;
+  padding: 2.4rem 2.5rem;
   box-shadow: none;
   position: relative;
   overflow: hidden;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1px);
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--accent-0), transparent);
-}
-
+.hero::before,
 .hero::after {
-  content: "";
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  width: 70px;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent-0), transparent);
+  display: none;
 }
 
 .hero strong {
@@ -152,29 +138,22 @@ hr {
 
 .quarto-grid-item {
   position: relative;
-  background: rgba(7, 9, 13, 0.92);
+  background: rgba(5, 5, 5, 0.8);
   border: 1px solid var(--border-0);
-  border-radius: 6px;
-  padding: 1.2rem 1.4rem;
+  border-radius: 4px;
+  padding: 1.1rem 1.3rem;
   box-shadow: none;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .quarto-grid-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--accent-0), transparent);
-  opacity: 0.6;
+  display: none;
 }
 
 .quarto-grid-item:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   border-color: var(--border-1);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.35);
 }
 
 .quarto-grid-item .listing-title {
@@ -189,8 +168,8 @@ hr {
 .quarto-grid-item .listing-date {
   color: var(--accent-2);
   text-transform: uppercase;
-  letter-spacing: 0.24em;
-  font-size: 0.7rem;
+  letter-spacing: 0.26em;
+  font-size: 0.68rem;
 }
 
 blockquote {
@@ -198,18 +177,18 @@ blockquote {
   margin: 1.5rem 0;
   padding: 0.4rem 1.2rem;
   color: var(--ink-2);
-  background: rgba(7, 9, 13, 0.65);
+  background: rgba(5, 5, 5, 0.65);
 }
 
 code, pre {
   font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
   color: var(--ink-0);
-  background: rgba(7, 9, 13, 0.85);
+  background: rgba(5, 5, 5, 0.85);
   border: 1px solid var(--border-0);
 }
 
 ::selection {
-  background: rgba(241, 243, 247, 0.25);
+  background: rgba(245, 246, 248, 0.25);
 }
 
 #quarto-content,
@@ -217,6 +196,10 @@ code, pre {
 .content,
 .content > .main {
   background: transparent;
+}
+
+ul li::marker {
+  color: var(--ink-2);
 }
 
 @media (max-width: 760px) {
@@ -229,6 +212,6 @@ code, pre {
   }
 
   h1 {
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
   }
 }
