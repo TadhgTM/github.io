@@ -6,15 +6,16 @@ title: ""
 
 # Tadhg Taylor-McGreal
 
-**Economics student at McMaster University**  
-Focused on the interplay between human-capital ecosystems, strategic resource allocation, and the security dimensions of global markets.
+MA Economics, McMaster University
 
-I study how innovation asymmetries and frictions amplify systemic risks, influence adversarial statecraft, and reshape power dynamics between nations. I aim to uncover vulnerabilities and leverage points within interconnected systems.
+I am an economist studying how policy-imposed constraints and external shocks propagate through interconnected production systems. My work focuses on identifying when trade restrictions, energy disruptions, and industrial policy interventions induce adaptive reallocation—and when they instead generate persistent vulnerabilities and systemic risk.
 
-**Career focus:** National security, economic resilience, and strategic competition.
+Using static and dynamic general equilibrium models with production networks and capital adjustment, I analyze how investment incentives, substitution elasticities, and network structure shape aggregate resilience. My research is motivated by questions central to economic security, including supply-chain robustness, energy dependence, and exposure to geopolitical shocks.
 
-**Research interests:**  
-Macroeconomics · General Equilibrium · Production Networks · Energy & Climate Policy · Industrial Policy · Security Economics
+My work is intended to support forward-looking risk assessment in environments characterized by strategic interaction, uncertainty, and incomplete information.
+
+Research interests:  
+Macroeconomics · General Equilibrium · Production Networks · Energy & Climate Policy · Industrial Policy · Economic Security
 
 **Links**  
 - [Curriculum Vitae (PDF)](assets/cv/Taylor-McGreal_CV.pdf)

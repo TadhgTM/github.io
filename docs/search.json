@@ -1,17 +1,52 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "policy-applications.html",
+    "href": "policy-applications.html",
+    "title": "Policy Applications (Restricted Distribution)",
     "section": "",
-    "text": "Short essays on strategic competition, systemic risk, and the political economy of security.\n\n\n\n\n\n\n\n\n\n\n\nStrategic Frictions and Systemic Risk\n\n\nWhy small policy frictions can cascade through production networks and reshape power dynamics.\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "My research develops quantitative tools that can support economic intelligence and policy analysis in environments characterized by strategic interaction, uncertainty, and systemic interdependence.\n\n\nI study how production networks transmit shocks arising from trade restrictions, sanctions, and input shortages. The models identify critical nodes and substitution margins that determine whether disruptions are absorbed through reallocation or amplified into persistent vulnerabilities. This framework can inform assessments of supply-chain robustness and exposure to foreign dependencies.\n\n\n\nMy work on energy substitution and capital adjustment characterizes how economies respond over time to energy price shocks, carbon pricing, and technology constraints. These dynamics are directly relevant for evaluating energy dependence, transition risks, and the strategic implications of supply disruptions.\n\n\n\nBy embedding policy frictions in dynamic general equilibrium models, I examine how small, persistent distortions generate nonlinear aggregate responses. The approach is suited to identifying early-stage vulnerabilities that may not be apparent in reduced-form or sector-level analyses.\n\n\n\nAcross projects, I focus on how policy instruments interact with private investment incentives. This perspective is relevant for evaluating the unintended consequences of industrial policy, sanctions, and regulatory interventions in adversarial or competitive environments.\nThis work is intended to complement qualitative intelligence assessments with formal, mechanism-based economic analysis."
+  },
+  {
+    "objectID": "policy-applications.html#economic-resilience-and-supply-chain-risk",
+    "href": "policy-applications.html#economic-resilience-and-supply-chain-risk",
+    "title": "Policy Applications (Restricted Distribution)",
+    "section": "",
+    "text": "I study how production networks transmit shocks arising from trade restrictions, sanctions, and input shortages. The models identify critical nodes and substitution margins that determine whether disruptions are absorbed through reallocation or amplified into persistent vulnerabilities. This framework can inform assessments of supply-chain robustness and exposure to foreign dependencies."
+  },
+  {
+    "objectID": "policy-applications.html#energy-security-and-strategic-dependence",
+    "href": "policy-applications.html#energy-security-and-strategic-dependence",
+    "title": "Policy Applications (Restricted Distribution)",
+    "section": "",
+    "text": "My work on energy substitution and capital adjustment characterizes how economies respond over time to energy price shocks, carbon pricing, and technology constraints. These dynamics are directly relevant for evaluating energy dependence, transition risks, and the strategic implications of supply disruptions."
+  },
+  {
+    "objectID": "policy-applications.html#early-warning-indicators-and-systemic-risk",
+    "href": "policy-applications.html#early-warning-indicators-and-systemic-risk",
+    "title": "Policy Applications (Restricted Distribution)",
+    "section": "",
+    "text": "By embedding policy frictions in dynamic general equilibrium models, I examine how small, persistent distortions generate nonlinear aggregate responses. The approach is suited to identifying early-stage vulnerabilities that may not be apparent in reduced-form or sector-level analyses."
+  },
+  {
+    "objectID": "policy-applications.html#policy-design-under-strategic-constraints",
+    "href": "policy-applications.html#policy-design-under-strategic-constraints",
+    "title": "Policy Applications (Restricted Distribution)",
+    "section": "",
+    "text": "Across projects, I focus on how policy instruments interact with private investment incentives. This perspective is relevant for evaluating the unintended consequences of industrial policy, sanctions, and regulatory interventions in adversarial or competitive environments.\nThis work is intended to complement qualitative intelligence assessments with formal, mechanism-based economic analysis."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "You can download my CV here:\n👉 Taylor-McGreal CV (PDF)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tadhg Taylor-McGreal",
     "section": "",
-    "text": "Tadhg Taylor-McGreal\nEconomics student at McMaster University\nFocused on the interplay between human-capital ecosystems, strategic resource allocation, and the security dimensions of global markets.\nI study how innovation asymmetries and frictions amplify systemic risks, influence adversarial statecraft, and reshape power dynamics between nations. I aim to uncover vulnerabilities and leverage points within interconnected systems.\nCareer focus: National security, economic resilience, and strategic competition.\nResearch interests:\nMacroeconomics · General Equilibrium · Production Networks · Energy & Climate Policy · Industrial Policy · Security Economics\nLinks\n- Curriculum Vitae (PDF) - GitHub - Google Scholar (coming soon) - Email: t.taylormcgreal@gmail.com"
+    "text": "Tadhg Taylor-McGreal\nMA Economics, McMaster University\nI am an economist studying how policy-imposed constraints and external shocks propagate through interconnected production systems. My work focuses on identifying when trade restrictions, energy disruptions, and industrial policy interventions induce adaptive reallocation—and when they instead generate persistent vulnerabilities and systemic risk.\nUsing static and dynamic general equilibrium models with production networks and capital adjustment, I analyze how investment incentives, substitution elasticities, and network structure shape aggregate resilience. My research is motivated by questions central to economic security, including supply-chain robustness, energy dependence, and exposure to geopolitical shocks.\nMy work is intended to support forward-looking risk assessment in environments characterized by strategic interaction, uncertainty, and incomplete information.\nResearch interests:\nMacroeconomics · General Equilibrium · Production Networks · Energy & Climate Policy · Industrial Policy · Economic Security\nLinks\n- Curriculum Vitae (PDF) - GitHub - Google Scholar (coming soon) - Email: t.taylormcgreal@gmail.com"
   },
   {
     "objectID": "posts/2026-02-06-strategic-frictions.html",
@@ -25,21 +60,21 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Tadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper (PDF)\nCode & replication materials (GitHub)\nSlides (coming soon)"
+    "text": "I develop and solve static and dynamic general equilibrium models to study how policy constraints and external shocks affect investment, production, and reallocation in networked economies. My work emphasizes identifying structural conditions under which localized disruptions propagate into economy-wide vulnerabilities.\nThese tools are applied to questions in energy and climate policy, trade and industrial policy, and economic security, with a focus on mechanisms relevant for early-warning analysis and resilience assessment."
   },
   {
     "objectID": "research.html#working-papers",
     "href": "research.html#working-papers",
     "title": "Research",
-    "section": "",
-    "text": "Tadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper (PDF)\nCode & replication materials (GitHub)\nSlides (coming soon)"
+    "section": "Working Papers",
+    "text": "Working Papers\n\nOptimal Carbon Taxation in a Dynamic General Equilibrium Economy\nTadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper (PDF)\nCode & replication materials (GitHub)\nSlides (coming soon)"
   },
   {
     "objectID": "research.html#work-in-progress",
     "href": "research.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\nPolicy Constraints, Production Networks, and Endogenous Investment\nI study how trade restrictions and policy uncertainty propagate through production networks, altering firms’ incentives to invest in sourcing flexibility and productive capacity."
+    "text": "Work in Progress\n\nPolicy Constraints, Production Networks, and Endogenous Investment\nThis project studies how trade restrictions, policy uncertainty, and input constraints propagate through production networks and alter firms’ incentives to invest in capacity, sourcing flexibility, and technology adoption. I characterize when constraints induce adaptive reorganization versus persistent fragility, with implications for supply-chain security, energy dependence, and exposure to geopolitical shocks.\nThe framework is designed to identify leverage points and bottlenecks that are not visible in partial-equilibrium or sector-isolated analyses."
   },
   {
     "objectID": "research.html#past-related-projects",
@@ -98,10 +133,17 @@
     "text": "Replication & Tools\n\nGE solvers and calibration routines\nVisualization and policy counterfactual tools"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "EDITING.html",
+    "href": "EDITING.html",
+    "title": "Tadhg Taylor-McGreal",
     "section": "",
-    "text": "You can download my CV here:\n👉 Taylor-McGreal CV (PDF)"
+    "text": "Editing Guide\nQuick edits 1. Homepage text: index.qmd 2. Research page: research.qmd 3. CV page: cv.qmd 4. Teaching page: teaching.qmd 5. Code & Data: code.qmd 6. Blog landing: blog.qmd 7. Hidden policy page: policy-applications.qmd 8. Styling: styles.css\nAdd a working paper (paste into research.qmd)\n### Title of Paper  \n**Your Name**\n\nShort 2–3 sentence description.\n\n- [Paper (PDF)](assets/papers/your_file.pdf)\n- Code & replication materials (GitHub)\n- Slides (coming soon)\nAdd a blog post 1. Copy posts/_template.qmd to a new file in posts/. 2. Name it like YYYY-MM-DD-short-title.qmd. 3. Fill in the title, date, description, and body.\nPublish changes 1. quarto render 2. git add docs 3. git commit -m \"Update site\" 4. git push"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Short essays on strategic competition, systemic risk, and the political economy of security.\n\n\n\n\n\n\n\n\n\n\n\nStrategic Frictions and Systemic Risk\n\n\nWhy small policy frictions can cascade through production networks and reshape power dynamics.\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]

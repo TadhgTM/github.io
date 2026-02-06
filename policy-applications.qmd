@@ -1,0 +1,25 @@
+---
+title: "Policy Applications (Restricted Distribution)"
+---
+
+# Policy Applications
+
+My research develops quantitative tools that can support economic intelligence and policy analysis in environments characterized by strategic interaction, uncertainty, and systemic interdependence.
+
+## Economic Resilience and Supply-Chain Risk
+
+I study how production networks transmit shocks arising from trade restrictions, sanctions, and input shortages. The models identify critical nodes and substitution margins that determine whether disruptions are absorbed through reallocation or amplified into persistent vulnerabilities. This framework can inform assessments of supply-chain robustness and exposure to foreign dependencies.
+
+## Energy Security and Strategic Dependence
+
+My work on energy substitution and capital adjustment characterizes how economies respond over time to energy price shocks, carbon pricing, and technology constraints. These dynamics are directly relevant for evaluating energy dependence, transition risks, and the strategic implications of supply disruptions.
+
+## Early-Warning Indicators and Systemic Risk
+
+By embedding policy frictions in dynamic general equilibrium models, I examine how small, persistent distortions generate nonlinear aggregate responses. The approach is suited to identifying early-stage vulnerabilities that may not be apparent in reduced-form or sector-level analyses.
+
+## Policy Design Under Strategic Constraints
+
+Across projects, I focus on how policy instruments interact with private investment incentives. This perspective is relevant for evaluating the unintended consequences of industrial policy, sanctions, and regulatory interventions in adversarial or competitive environments.
+
+This work is intended to complement qualitative intelligence assessments with formal, mechanism-based economic analysis.

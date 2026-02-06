@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Tadhg Taylor-McGreal</title>
+<title>editing – Tadhg Taylor-McGreal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -91,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -144,63 +179,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Research</h1>
-</div>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta column-page">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>I develop and solve static and dynamic general equilibrium models to study how policy constraints and external shocks affect investment, production, and reallocation in networked economies. My work emphasizes identifying structural conditions under which localized disruptions propagate into economy-wide vulnerabilities.</p>
-<p>These tools are applied to questions in energy and climate policy, trade and industrial policy, and economic security, with a focus on mechanisms relevant for early-warning analysis and resilience assessment.</p>
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<section id="optimal-carbon-taxation-in-a-dynamic-general-equilibrium-economy" class="level3">
-<h3 class="anchored" data-anchor-id="optimal-carbon-taxation-in-a-dynamic-general-equilibrium-economy">Optimal Carbon Taxation in a Dynamic General Equilibrium Economy</h3>
-<p><strong>Tadhg Taylor-McGreal</strong></p>
-<p>I develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.</p>
-<ul>
-<li><a href="assets/papers/carbon_tax_ge.pdf">Paper (PDF)</a></li>
-<li>Code &amp; replication materials (GitHub)</li>
-<li>Slides (coming soon)</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="work-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h2>
-<section id="policy-constraints-production-networks-and-endogenous-investment" class="level3">
-<h3 class="anchored" data-anchor-id="policy-constraints-production-networks-and-endogenous-investment">Policy Constraints, Production Networks, and Endogenous Investment</h3>
-<p>This project studies how trade restrictions, policy uncertainty, and input constraints propagate through production networks and alter firms’ incentives to invest in capacity, sourcing flexibility, and technology adoption. I characterize when constraints induce adaptive reorganization versus persistent fragility, with implications for supply-chain security, energy dependence, and exposure to geopolitical shocks.</p>
-<p>The framework is designed to identify leverage points and bottlenecks that are not visible in partial-equilibrium or sector-isolated analyses.</p>
-<hr>
-</section>
-</section>
-<section id="past-related-projects" class="level2">
-<h2 class="anchored" data-anchor-id="past-related-projects">Past &amp; Related Projects</h2>
-<ul>
-<li><p><strong>Static GE Model of Carbon Pricing in Canada</strong><br>
-Multi-sector model calibrated to Statistics Canada data to study energy substitution and emissions responses.</p></li>
-<li><p><strong>Neural Networks in Strategic Environments</strong><br>
-Zero-lookahead chess engine exploring limits of function approximation in high-dimensional strategic settings.</p></li>
-</ul>
+<p>Editing Guide</p>
+<p>Quick edits 1. Homepage text: <code>index.qmd</code> 2. Research page: <code>research.qmd</code> 3. CV page: <code>cv.qmd</code> 4. Teaching page: <code>teaching.qmd</code> 5. Code &amp; Data: <code>code.qmd</code> 6. Blog landing: <code>blog.qmd</code> 7. Hidden policy page: <code>policy-applications.qmd</code> 8. Styling: <code>styles.css</code></p>
+<p>Add a working paper (paste into <code>research.qmd</code>)</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">### Title of Paper  </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>**Your Name**</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>Short 2–3 sentence description.</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Paper (PDF)</span><span class="co">](assets/papers/your_file.pdf)</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Code &amp; replication materials (GitHub)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Slides (coming soon)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Add a blog post 1. Copy <code>posts/_template.qmd</code> to a new file in <code>posts/</code>. 2. Name it like <code>YYYY-MM-DD-short-title.qmd</code>. 3. Fill in the title, date, description, and body.</p>
+<p>Publish changes 1. <code>quarto render</code> 2. <code>git add docs</code> 3. <code>git commit -m "Update site"</code> 4. <code>git push</code></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,0 +1,7 @@
+---
+title: "Post Title"
+date: 2026-02-06
+description: "One sentence summary."
+---
+
+Write your post here.
