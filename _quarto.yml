@@ -8,11 +8,11 @@ website:
     left:
       - text: Research
         href: research.qmd
-      - text: CV
+      - text: Cv
         href: cv.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: Code & Data
+      - text: Code & data
         href: code.qmd
       - text: Blog
         href: blog.qmd
