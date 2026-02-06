@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 2
+  filter-ui: false
+  fields: [title, date, description]
+  page-size: 6
+---
+
+Short essays on strategic competition, systemic risk, and the political economy of security.

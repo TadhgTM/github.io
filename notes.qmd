@@ -1,0 +1,6 @@
+---
+title: "Notes"
+---
+
+Short technical notes on models, data sources, and methods.  
+Updated intermittently.

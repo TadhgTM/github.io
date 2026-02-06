@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Tadhg Taylor-McGreal"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Code & Data
+        href: code.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: Notes
+        href: notes.qmd
+    right:
+      - icon: github
+        href: https://github.com/TadhgTM
+      - icon: file-earmark-person
+        href: assets/cv/Taylor-McGreal_CV.pdf
+      - icon: envelope
+        href: mailto:t.taylormcgreal@gmail.com
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: false
+    page-layout: full

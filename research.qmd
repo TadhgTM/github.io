@@ -1,0 +1,32 @@
+---
+title: "Research"
+---
+
+## Working Papers
+
+### Optimal Carbon Taxation in a Dynamic General Equilibrium Economy  
+**Tadhg Taylor-McGreal**
+
+I develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.
+
+- [Paper (PDF)](assets/papers/carbon_tax_ge.pdf)
+- Code & replication materials (GitHub)
+- Slides (coming soon)
+
+---
+
+## Work in Progress
+
+### Policy Constraints, Production Networks, and Endogenous Investment
+
+I study how trade restrictions and policy uncertainty propagate through production networks, altering firms’ incentives to invest in sourcing flexibility and productive capacity.
+
+---
+
+## Past & Related Projects
+
+- **Static GE Model of Carbon Pricing in Canada**  
+  Multi-sector model calibrated to Statistics Canada data to study energy substitution and emissions responses.
+
+- **Neural Networks in Strategic Environments**  
+  Zero-lookahead chess engine exploring limits of function approximation in high-dimensional strategic settings.

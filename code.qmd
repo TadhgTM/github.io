@@ -1,0 +1,25 @@
+---
+title: "Code & Data"
+---
+
+## Research Code
+
+### Carbon Taxation in General Equilibrium  
+**Python, NumPy, SciPy**
+
+Dynamic and static GE models of the Canadian economy with heterogeneous energy technologies.
+
+- GitHub: https://github.com/TadhgTM/Energy-Taxation-Project
+
+---
+
+### Production Networks & Policy Constraints (WIP)
+
+Simulation tools for studying investment and reallocation in constrained supply networks.
+
+---
+
+## Replication & Tools
+
+- GE solvers and calibration routines
+- Visualization and policy counterfactual tools

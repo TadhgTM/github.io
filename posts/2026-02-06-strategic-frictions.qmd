@@ -1,0 +1,7 @@
+---
+title: "Strategic Frictions and Systemic Risk"
+date: 2026-02-06
+description: "Why small policy frictions can cascade through production networks and reshape power dynamics."
+---
+
+Policy frictions are rarely isolated. In tightly coupled economies, small distortions can propagate through production networks, magnify uncertainty, and alter the strategic calculus of states and firms. My interest is in identifying which nodes and linkages act as accelerants, and where targeted intervention can dampen systemic risk without imposing persistent misallocation.
