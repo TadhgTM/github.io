@@ -47,6 +47,15 @@ main.content {
   padding: 2.8rem 1.6rem 4.8rem;
 }
 
+main.content.column-page,
+#quarto-document-content {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
 .page-columns,
 .content,
 .content > .main,
@@ -62,6 +71,20 @@ main.content {
 #quarto-content,
 .quarto-title-block {
   text-align: left;
+}
+
+#title-block-header,
+#title-block-header .quarto-title,
+#title-block-header .quarto-title .title,
+#title-block-header .quarto-title-meta {
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#title-block-header .quarto-title {
+  display: block;
+  width: 100%;
 }
 
 h1, h2, h3, .navbar-brand {
