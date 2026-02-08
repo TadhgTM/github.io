@@ -4,6 +4,16 @@ title: "Code & Data"
 
 ## Research Code
 
+### Drone Operator Allocation for Autonomous Swarms  
+**Python, NumPy, SciPy, Matplotlib**
+
+Risk-constrained stochastic model for determining feasible operator-to-drone ratios in multi-zone human-on-the-loop operations.
+
+- GitHub: https://github.com/TadhgTM/drone-operator-allocation
+- Paper (PDF): assets/papers/drone_operator_allocation.pdf
+
+---
+
 ### Carbon Taxation in General Equilibrium  
 **Python, NumPy, SciPy**
 

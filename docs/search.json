@@ -116,7 +116,7 @@
     "href": "research.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\nOptimal Carbon Taxation in a Dynamic General Equilibrium Economy\nTadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper\nCode & replication materials (GitHub)"
+    "text": "Working Papers\n\nOptimal Carbon Taxation in a Dynamic General Equilibrium Economy\nTadhg Taylor-McGreal\nI develop and solve a dynamic general equilibrium model with capital accumulation and heterogeneous energy technologies to characterize the welfare-maximizing carbon tax path. The model highlights how investment responses and energy substitution jointly shape optimal policy and transition dynamics.\n\nPaper\nCode & replication materials (GitHub)\n\n\n\n\nOptimal Human-on-the-Loop Architectures for Autonomous Drone Swarms\nTadhg Taylor-McGreal\nI develop a risk-constrained stochastic framework for operator-to-drone allocation in multi-zone autonomous operations under human-on-the-loop command constraints. The model quantifies overload risk and identifies feasible operator structures under operational and ethical thresholds.\n\nPaper\nCode and project repository"
   },
   {
     "objectID": "research.html#work-in-process",
@@ -214,14 +214,14 @@
     "href": "code.html",
     "title": "Code & Data",
     "section": "",
-    "text": "Python, NumPy, SciPy\nDynamic and static GE models of the Canadian economy with heterogeneous energy technologies.\n\nGitHub: https://github.com/TadhgTM/Energy-Taxation-Project\n\n\n\n\n\nSimulation tools for studying investment and reallocation in constrained supply networks."
+    "text": "Python, NumPy, SciPy, Matplotlib\nRisk-constrained stochastic model for determining feasible operator-to-drone ratios in multi-zone human-on-the-loop operations.\n\nGitHub: https://github.com/TadhgTM/drone-operator-allocation\nPaper (PDF): assets/papers/drone_operator_allocation.pdf\n\n\n\n\n\nPython, NumPy, SciPy\nDynamic and static GE models of the Canadian economy with heterogeneous energy technologies.\n\nGitHub: https://github.com/TadhgTM/Energy-Taxation-Project\n\n\n\n\n\nSimulation tools for studying investment and reallocation in constrained supply networks."
   },
   {
     "objectID": "code.html#research-code",
     "href": "code.html#research-code",
     "title": "Code & Data",
     "section": "",
-    "text": "Python, NumPy, SciPy\nDynamic and static GE models of the Canadian economy with heterogeneous energy technologies.\n\nGitHub: https://github.com/TadhgTM/Energy-Taxation-Project\n\n\n\n\n\nSimulation tools for studying investment and reallocation in constrained supply networks."
+    "text": "Python, NumPy, SciPy, Matplotlib\nRisk-constrained stochastic model for determining feasible operator-to-drone ratios in multi-zone human-on-the-loop operations.\n\nGitHub: https://github.com/TadhgTM/drone-operator-allocation\nPaper (PDF): assets/papers/drone_operator_allocation.pdf\n\n\n\n\n\nPython, NumPy, SciPy\nDynamic and static GE models of the Canadian economy with heterogeneous energy technologies.\n\nGitHub: https://github.com/TadhgTM/Energy-Taxation-Project\n\n\n\n\n\nSimulation tools for studying investment and reallocation in constrained supply networks."
   },
   {
     "objectID": "code.html#replication-tools",

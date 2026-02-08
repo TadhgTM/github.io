@@ -18,6 +18,16 @@ I develop and solve a dynamic general equilibrium model with capital accumulatio
 
 ---
 
+### Optimal Human-on-the-Loop Architectures for Autonomous Drone Swarms  
+**Tadhg Taylor-McGreal**
+
+I develop a risk-constrained stochastic framework for operator-to-drone allocation in multi-zone autonomous operations under human-on-the-loop command constraints. The model quantifies overload risk and identifies feasible operator structures under operational and ethical thresholds.
+
+- [Paper](assets/papers/drone_operator_allocation.pdf)
+- [Code and project repository](https://github.com/TadhgTM/drone-operator-allocation)
+
+---
+
 ## Work in Process
 
 ### Policy Constraints, Production Networks, and Endogenous Investment
