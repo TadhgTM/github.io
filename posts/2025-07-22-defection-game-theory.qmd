@@ -4,7 +4,7 @@ date: 2025-07-22
 description: "A short simulation of Prisoner’s Dilemma strategies and what actually wins."
 ---
 
-I simulated a modified Prisoner’s Dilemma with common strategies (Tit‑for‑Tat, Grudger, Pavlov, Always Defect, etc.) to see which behaviors dominate in mixed environments.
+I simulated a modified Prisoner’s Dilemma with common strategies (Tit‑for‑Tat, Grudger, Pavlov, Always Defect, etc.) to see which behaviours dominate in mixed environments.
 
 The takeaway is not “always cooperate” or “always defect.” The best performers balance adaptability with deterrence. Highly forgiving strategies get exploited; rigid ones spiral into mutual punishment. The stable middle ground looks like conditional reciprocity with limited patience.
 

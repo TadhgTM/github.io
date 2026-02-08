@@ -4,7 +4,7 @@ date: 2025-09-16
 description: "Why promising industrial policy programs fail in implementation, and how to design guardrails early."
 ---
 
-Industrial policy often fails for operational reasons, not conceptual ones. Incentives that look coherent at launch drift once agencies, firms, and local governments optimize against different objectives.
+Industrial policy often fails for operational reasons, not conceptual ones. Incentives that look coherent at launch drift once agencies, firms, and local governments optimise against different objectives.
 
 Five repeat failure modes show up across sectors:
 - Subsidies tied to volume instead of productivity learning.
@@ -14,4 +14,3 @@ Five repeat failure modes show up across sectors:
 - No clear exit rules when programs stop producing strategic value.
 
 A better design starts with milestones that are technical, auditable, and reversible. If the state cannot scale discipline with spending, industrial policy becomes transfer policy.
-

@@ -1,11 +1,11 @@
 ---
 title: "Canada’s Bedrock Opportunity"
 date: 2025-06-14
-description: "Resource abundance isn’t enough—export infrastructure and policy coherence decide the outcome."
+description: "Resource abundance isn’t enough; export infrastructure and policy coherence decide the outcome."
 ---
 
 Canada’s resource base positions it as a pivotal supplier in a shifting energy and minerals landscape. But without export diversification and infrastructure, that advantage gets discounted in global markets.
 
-Two constraints dominate: access to tidewater (pipelines, LNG terminals, ports) and policy coherence across provinces and the federal government. Without those, Canada stays a price taker—even with world‑class reserves.
+Two constraints dominate: access to tidewater (pipelines, LNG terminals, ports) and policy coherence across provinces and the federal government. Without those, Canada stays a price taker, even with world‑class reserves.
 
 A credible strategy pairs infrastructure build‑out with clean‑tech investment (e.g., CCS, grid upgrades) to keep exports competitive as the global energy mix shifts.

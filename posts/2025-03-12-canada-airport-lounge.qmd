@@ -1,7 +1,7 @@
 ---
 title: "Canada As An Airport Lounge"
 date: 2025-03-12
-description: "Why a resource-rich country can still feel like a pass-through economy—and what would change that."
+description: "Why a resource-rich country can still feel like a pass-through economy, and what would change that."
 ---
 
 Canada has produced world‑class ideas and institutions, yet often behaves like a polished transit hub rather than a destination. Capital, talent, and IP pass through; fewer companies scale at home. That gap matters when supply chains, climate policy, and security shocks demand domestic capacity.

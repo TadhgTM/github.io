@@ -11,7 +11,6 @@ A usable early-warning dashboard should track:
 - Unexplained inspection delays in politically sensitive sectors.
 - Credit tightening for firms linked to strategic supply chains.
 - Administrative rule changes that are neutral in text but selective in effect.
-- Pricing behavior that diverges from fundamentals in key intermediates.
+- Pricing behaviour that diverges from fundamentals in key intermediates.
 
 No single indicator is decisive. The signal is in cross-market correlation and sequencing. The objective is to identify a coercion pathway early enough to reallocate exposure.
-

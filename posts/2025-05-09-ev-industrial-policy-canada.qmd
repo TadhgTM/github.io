@@ -4,7 +4,7 @@ date: 2025-05-09
 description: "What a Canadian EV strategy would look like if it prioritized capability, not just assembly."
 ---
 
-Canada assembles vehicles but captures too little of the IP and supply‑chain value. A serious EV strategy would aim at capability: batteries, power electronics, software, and testing standards—plus the supply chain for critical minerals.
+Canada assembles vehicles but captures too little of the IP and supply‑chain value. A serious EV strategy would aim at capability: batteries, power electronics, software, and testing standards, plus the supply chain for critical minerals.
 
 A realistic policy mix:
 - Time‑limited protective space for domestic entrants.
