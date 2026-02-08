@@ -1,0 +1,15 @@
+---
+title: "State Capacity and Policy Execution in Strategic Sectors"
+date: 2026-01-27
+description: "Strategic policy outcomes are constrained less by targets and more by administrative execution capacity."
+---
+
+Ambitious strategy fails when execution institutions are thin. In strategic sectors, policy success depends on whether the state can evaluate projects, enforce milestones, and update programs as conditions change.
+
+Execution capacity has three practical components:
+- Technical procurement and evaluation capability.
+- Coordinated authority across ministries and levels of government.
+- Feedback systems that terminate weak projects and scale strong ones.
+
+State capacity is not an abstract governance metric. It is the binding constraint on whether strategic policy produces capability or just announcements.
+

@@ -1,0 +1,11 @@
+---
+title: "Oil, Networks, And Canada’s TFP Slowdown"
+date: 2025-11-17
+description: "A network‑adjusted counterfactual for how oil shocks dragged aggregate productivity."
+---
+
+Canada’s post‑2001 productivity slowdown looks different once you neutralize oil‑sector shocks without removing oil from the production network. I call this ON‑TFP: hold oil productivity and prices at 2001 levels, but keep its input linkages.
+
+Using the Baqaee‑Farhi framework, the result is clear: aggregate TFP largely recovers once oil’s negative productivity shock is removed. The drag wasn’t a generalized innovation failure—it was network propagation from a central sector.
+
+The implication is policy‑relevant: allocation and input‑cost spillovers can dominate national productivity trends, even when the shocked sector is small by value‑added.

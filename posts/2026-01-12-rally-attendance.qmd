@@ -1,0 +1,11 @@
+---
+title: "Do Big Rallies Predict Big Wins?"
+date: 2026-01-12
+description: "A research design for testing whether rally attendance moves vote share in swing states."
+---
+
+Rallies are one of the most visible campaign tools, but the causal link to outcomes is unclear. A clean test needs timing, media coverage, and baseline partisanship controls.
+
+The design I sketch is simple: regress vote share on rally attendance, with time‑to‑election weights, media amplification proxies, and demographic controls. A second layer tests “force projection” by seeing whether one party’s rallies reduce the opponent’s presence.
+
+If the signal is real, rallies are more than optics; if not, they’re mostly narrative management. Either way, the method separates spectacle from effect.

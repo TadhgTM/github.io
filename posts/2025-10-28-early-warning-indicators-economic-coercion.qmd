@@ -1,0 +1,17 @@
+---
+title: "Early-Warning Indicators for Economic Coercion"
+date: 2025-10-28
+description: "A practical indicator set for detecting escalation risk before formal coercive actions are announced."
+---
+
+Economic coercion rarely starts with formal sanctions. It usually appears first as coordinated frictions in trade finance, customs timing, licensing, procurement, and standards enforcement.
+
+A usable early-warning dashboard should track:
+- Sudden concentration shifts in critical import categories.
+- Unexplained inspection delays in politically sensitive sectors.
+- Credit tightening for firms linked to strategic supply chains.
+- Administrative rule changes that are neutral in text but selective in effect.
+- Pricing behavior that diverges from fundamentals in key intermediates.
+
+No single indicator is decisive. The signal is in cross-market correlation and sequencing. The objective is to identify a coercion pathway early enough to reallocate exposure.
+

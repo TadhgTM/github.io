@@ -1,0 +1,15 @@
+---
+title: "How Input-Output Centrality Predicts Shock Propagation"
+date: 2025-12-03
+description: "Why a sector's network position can matter more than its size when shocks cascade through the economy."
+---
+
+Sector size is a weak proxy for systemic risk. In production networks, shock intensity depends on centrality: how many sectors depend on an input, how substitutable it is, and how quickly firms can re-route demand.
+
+Three centrality features are consistently useful:
+- Upstream dependency density.
+- Low-substitution bottleneck inputs.
+- High pass-through into downstream cost structures.
+
+This is why small sectors can generate large aggregate effects. A central node with low substitution can transmit a local disruption into economy-wide productivity and price pressure.
+

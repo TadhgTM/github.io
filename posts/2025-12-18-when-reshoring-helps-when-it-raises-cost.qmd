@@ -1,0 +1,15 @@
+---
+title: "When Reshoring Helps and When It Raises Systemic Cost"
+date: 2025-12-18
+description: "Reshoring improves resilience in some chains, but can reduce flexibility and raise system-wide cost in others."
+---
+
+Reshoring is not a universal resilience strategy. It works when foreign concentration risk is high, domestic scale economies are reachable, and substitution failures create strategic exposure.
+
+It underperforms when:
+- Domestic production remains structurally higher cost with no learning curve.
+- Inputs still rely on concentrated upstream imports.
+- Policy support protects incumbents without productivity gains.
+
+The relevant question is not "home versus foreign." It is whether a supply configuration improves reliability per unit cost over the full risk cycle.
+
