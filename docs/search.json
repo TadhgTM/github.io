@@ -49,11 +49,60 @@
     "text": "Tadhg Taylor-McGreal\nMAEP Economics, McMaster University\nI am studying how policy-imposed frictions and external shocks propagate through interconnected production systems. My work focuses on identifying when trade restrictions, energy disruptions, and industrial policy interventions induce adaptive reallocation, and when they instead generate persistent vulnerabilities and systemic risk.\nUsing dynamic AGE models, I study how investment incentives, substitution elasticities, and network structure shape aggregate resilience. My research is motivated by questions central to economic security, including supply-chain robustness, energy dependence, and exposure to geopolitical shocks.\nMy work is intended to support forward-looking risk assessment in environments characterized by strategic interaction, uncertainty, and incomplete information.\nResearch interests:\nMacroeconomics · Production Networks · Energy Policy · Industrial Policy · Economic Security\nLinks\n- Curriculum Vitae (PDF) - GitHub - Email: t.taylormcgreal@gmail.com"
   },
   {
+    "objectID": "posts/2025-09-16-industrial-policy-failure-modes.html",
+    "href": "posts/2025-09-16-industrial-policy-failure-modes.html",
+    "title": "Industrial Policy Failure Modes: Where Incentives Go Off-Path",
+    "section": "",
+    "text": "Industrial policy often fails for operational reasons, not conceptual ones. Incentives that look coherent at launch drift once agencies, firms, and local governments optimize against different objectives.\nFive repeat failure modes show up across sectors: - Subsidies tied to volume instead of productivity learning. - Weak performance gates that keep underperforming projects alive. - Fragmented governance that duplicates support across jurisdictions. - Political timing that front-loads announcements and back-loads execution. - No clear exit rules when programs stop producing strategic value.\nA better design starts with milestones that are technical, auditable, and reversible. If the state cannot scale discipline with spending, industrial policy becomes transfer policy."
+  },
+  {
+    "objectID": "posts/2025-04-18-china-ev-policy-lessons.html",
+    "href": "posts/2025-04-18-china-ev-policy-lessons.html",
+    "title": "China’s EV Policy Playbook",
+    "section": "",
+    "text": "China’s EV rise wasn’t just market‑led. It was a tightly sequenced industrial strategy: stimulate demand early, subsidize supply, build charging infrastructure, then tighten performance standards as the market scales.\nKey elements that mattered: - Early consumer subsidies to create a market floor. - Production support and R&D to move firms down cost curves. - Infrastructure build‑out to remove range anxiety. - Policy tightening to force quality upgrades and consolidation.\nThe lesson for Canada isn’t to copy the scale, but to copy the sequencing and discipline—especially the transition from broad support to performance‑based support."
+  },
+  {
     "objectID": "posts/2026-02-06-strategic-frictions.html",
     "href": "posts/2026-02-06-strategic-frictions.html",
     "title": "Strategic Frictions and Systemic Risk",
     "section": "",
     "text": "Policy frictions are rarely isolated. In tightly coupled economies, small distortions can propagate through production networks, magnify uncertainty, and alter the strategic calculus of states and firms. My interest is in identifying which nodes and linkages act as accelerants, and where targeted intervention can dampen systemic risk without imposing persistent misallocation."
+  },
+  {
+    "objectID": "posts/2025-05-09-ev-industrial-policy-canada.html",
+    "href": "posts/2025-05-09-ev-industrial-policy-canada.html",
+    "title": "EV Industrial Policy For Canada",
+    "section": "",
+    "text": "Canada assembles vehicles but captures too little of the IP and supply‑chain value. A serious EV strategy would aim at capability: batteries, power electronics, software, and testing standards—plus the supply chain for critical minerals.\nA realistic policy mix: - Time‑limited protective space for domestic entrants. - R&D funding tied to measurable milestones. - National charging infrastructure as a demand catalyst. - Federal‑provincial coordination to prevent fragmented incentives.\nThe goal isn’t autarky. It’s a domestic core strong enough to compete and retain spillovers."
+  },
+  {
+    "objectID": "posts/2025-12-03-input-output-centrality-shock-propagation.html",
+    "href": "posts/2025-12-03-input-output-centrality-shock-propagation.html",
+    "title": "How Input-Output Centrality Predicts Shock Propagation",
+    "section": "",
+    "text": "Sector size is a weak proxy for systemic risk. In production networks, shock intensity depends on centrality: how many sectors depend on an input, how substitutable it is, and how quickly firms can re-route demand.\nThree centrality features are consistently useful: - Upstream dependency density. - Low-substitution bottleneck inputs. - High pass-through into downstream cost structures.\nThis is why small sectors can generate large aggregate effects. A central node with low substitution can transmit a local disruption into economy-wide productivity and price pressure."
+  },
+  {
+    "objectID": "posts/2025-10-28-early-warning-indicators-economic-coercion.html",
+    "href": "posts/2025-10-28-early-warning-indicators-economic-coercion.html",
+    "title": "Early-Warning Indicators for Economic Coercion",
+    "section": "",
+    "text": "Economic coercion rarely starts with formal sanctions. It usually appears first as coordinated frictions in trade finance, customs timing, licensing, procurement, and standards enforcement.\nA usable early-warning dashboard should track: - Sudden concentration shifts in critical import categories. - Unexplained inspection delays in politically sensitive sectors. - Credit tightening for firms linked to strategic supply chains. - Administrative rule changes that are neutral in text but selective in effect. - Pricing behavior that diverges from fundamentals in key intermediates.\nNo single indicator is decisive. The signal is in cross-market correlation and sequencing. The objective is to identify a coercion pathway early enough to reallocate exposure."
+  },
+  {
+    "objectID": "posts/2025-10-05-stranded-barrels.html",
+    "href": "posts/2025-10-05-stranded-barrels.html",
+    "title": "Stranded Barrels And A Shrinking Oil Market",
+    "section": "",
+    "text": "A permanent demand decline changes oil economics at the balance‑sheet level. Firms that collateralize debt against reserves face liquidity stress as prices and expected recoverable value fall—turning “proven” barrels into stranded assets.\nAt the same time, petro‑states may respond strategically by consolidating supply in a smaller market, moving toward oligopoly behavior. That creates a bifurcation: highly leveraged private producers exit while state producers gain market power.\nThe policy risk is double‑sided: financial instability in oil‑heavy regions and increased geopolitical leverage for the lowest‑cost producers."
+  },
+  {
+    "objectID": "posts/2025-08-30-ndp-identity.html",
+    "href": "posts/2025-08-30-ndp-identity.html",
+    "title": "The NDP’s Identity Problem",
+    "section": "",
+    "text": "The NDP’s challenge is less about ideology and more about coherence: the party’s wins in government have been incremental, while the public expects scale. That mismatch erodes perceived effectiveness.\nDigital presence compounds the problem. In a politics shaped by short‑form media, a policy‑heavy communication style loses attention to simpler, more emotionally legible narratives.\nIf the NDP wants to regain ground, it needs tighter message discipline and a clearer story about immediate, tangible benefits—not just long‑run justice arguments."
   },
   {
     "objectID": "research.html",
@@ -112,6 +161,55 @@
     "text": "Short technical notes on models, data sources, and methods.\nUpdated intermittently."
   },
   {
+    "objectID": "posts/2025-07-22-defection-game-theory.html",
+    "href": "posts/2025-07-22-defection-game-theory.html",
+    "title": "Defection And Cooperation In Repeated Games",
+    "section": "",
+    "text": "I simulated a modified Prisoner’s Dilemma with common strategies (Tit‑for‑Tat, Grudger, Pavlov, Always Defect, etc.) to see which behaviors dominate in mixed environments.\nThe takeaway is not “always cooperate” or “always defect.” The best performers balance adaptability with deterrence. Highly forgiving strategies get exploited; rigid ones spiral into mutual punishment. The stable middle ground looks like conditional reciprocity with limited patience.\nThat logic maps to real negotiations: durable cooperation requires credible retaliation and the ability to return to cooperation."
+  },
+  {
+    "objectID": "posts/2025-03-12-canada-airport-lounge.html",
+    "href": "posts/2025-03-12-canada-airport-lounge.html",
+    "title": "Canada As An Airport Lounge",
+    "section": "",
+    "text": "Canada has produced world‑class ideas and institutions, yet often behaves like a polished transit hub rather than a destination. Capital, talent, and IP pass through; fewer companies scale at home. That gap matters when supply chains, climate policy, and security shocks demand domestic capacity.\nThe fix isn’t nostalgia. It’s a strategy: scale R&D into homegrown firms, align finance with industrial outcomes, and lower internal frictions so the national market actually functions like one. Pair that with disciplined resource development and clear rules around strategic ownership.\nThe point is not to abandon values but to operationalize them. Canada’s advantage is still real; it just needs a plan that keeps value creation inside the country."
+  },
+  {
+    "objectID": "posts/2025-06-14-bedrock-opportunity.html",
+    "href": "posts/2025-06-14-bedrock-opportunity.html",
+    "title": "Canada’s Bedrock Opportunity",
+    "section": "",
+    "text": "Canada’s resource base positions it as a pivotal supplier in a shifting energy and minerals landscape. But without export diversification and infrastructure, that advantage gets discounted in global markets.\nTwo constraints dominate: access to tidewater (pipelines, LNG terminals, ports) and policy coherence across provinces and the federal government. Without those, Canada stays a price taker—even with world‑class reserves.\nA credible strategy pairs infrastructure build‑out with clean‑tech investment (e.g., CCS, grid upgrades) to keep exports competitive as the global energy mix shifts."
+  },
+  {
+    "objectID": "posts/2026-01-27-state-capacity-policy-execution-strategic-sectors.html",
+    "href": "posts/2026-01-27-state-capacity-policy-execution-strategic-sectors.html",
+    "title": "State Capacity and Policy Execution in Strategic Sectors",
+    "section": "",
+    "text": "Ambitious strategy fails when execution institutions are thin. In strategic sectors, policy success depends on whether the state can evaluate projects, enforce milestones, and update programs as conditions change.\nExecution capacity has three practical components: - Technical procurement and evaluation capability. - Coordinated authority across ministries and levels of government. - Feedback systems that terminate weak projects and scale strong ones.\nState capacity is not an abstract governance metric. It is the binding constraint on whether strategic policy produces capability or just announcements."
+  },
+  {
+    "objectID": "posts/2026-01-12-rally-attendance.html",
+    "href": "posts/2026-01-12-rally-attendance.html",
+    "title": "Do Big Rallies Predict Big Wins?",
+    "section": "",
+    "text": "Rallies are one of the most visible campaign tools, but the causal link to outcomes is unclear. A clean test needs timing, media coverage, and baseline partisanship controls.\nThe design I sketch is simple: regress vote share on rally attendance, with time‑to‑election weights, media amplification proxies, and demographic controls. A second layer tests “force projection” by seeing whether one party’s rallies reduce the opponent’s presence.\nIf the signal is real, rallies are more than optics; if not, they’re mostly narrative management. Either way, the method separates spectacle from effect."
+  },
+  {
+    "objectID": "posts/2025-11-17-on-tfp.html",
+    "href": "posts/2025-11-17-on-tfp.html",
+    "title": "Oil, Networks, And Canada’s TFP Slowdown",
+    "section": "",
+    "text": "Canada’s post‑2001 productivity slowdown looks different once you neutralize oil‑sector shocks without removing oil from the production network. I call this ON‑TFP: hold oil productivity and prices at 2001 levels, but keep its input linkages.\nUsing the Baqaee‑Farhi framework, the result is clear: aggregate TFP largely recovers once oil’s negative productivity shock is removed. The drag wasn’t a generalized innovation failure—it was network propagation from a central sector.\nThe implication is policy‑relevant: allocation and input‑cost spillovers can dominate national productivity trends, even when the shocked sector is small by value‑added."
+  },
+  {
+    "objectID": "posts/2025-12-18-when-reshoring-helps-when-it-raises-cost.html",
+    "href": "posts/2025-12-18-when-reshoring-helps-when-it-raises-cost.html",
+    "title": "When Reshoring Helps and When It Raises Systemic Cost",
+    "section": "",
+    "text": "Reshoring is not a universal resilience strategy. It works when foreign concentration risk is high, domestic scale economies are reachable, and substitution failures create strategic exposure.\nIt underperforms when: - Domestic production remains structurally higher cost with no learning curve. - Inputs still rely on concentrated upstream imports. - Policy support protects incumbents without productivity gains.\nThe relevant question is not “home versus foreign.” It is whether a supply configuration improves reliability per unit cost over the full risk cycle."
+  },
+  {
     "objectID": "code.html",
     "href": "code.html",
     "title": "Code & Data",
@@ -144,6 +242,6 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Short essays on strategic competition, systemic risk, and the political economy of security.\n\n\n\n\n\n\n\n\n\n\n\nStrategic Frictions and Systemic Risk\n\n\nWhy small policy frictions can cascade through production networks and reshape power dynamics.\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Short essays on strategic competition, systemic risk, and the political economy of security.\n\n\n\n\n\n\n\n\n\n\n\nStrategic Frictions and Systemic Risk\n\n\nWhy small policy frictions can cascade through production networks and reshape power dynamics.\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\n\n\nState Capacity and Policy Execution in Strategic Sectors\n\n\nStrategic policy outcomes are constrained less by targets and more by administrative execution capacity.\n\n\n\nJan 27, 2026\n\n\n\n\n\n\n\n\n\n\nDo Big Rallies Predict Big Wins?\n\n\nA research design for testing whether rally attendance moves vote share in swing states.\n\n\n\nJan 12, 2026\n\n\n\n\n\n\n\n\n\n\nWhen Reshoring Helps and When It Raises Systemic Cost\n\n\nReshoring improves resilience in some chains, but can reduce flexibility and raise system-wide cost in others.\n\n\n\nDec 18, 2025\n\n\n\n\n\n\n\n\n\n\nHow Input-Output Centrality Predicts Shock Propagation\n\n\nWhy a sector’s network position can matter more than its size when shocks cascade through the economy.\n\n\n\nDec 3, 2025\n\n\n\n\n\n\n\n\n\n\nOil, Networks, And Canada’s TFP Slowdown\n\n\nA network‑adjusted counterfactual for how oil shocks dragged aggregate productivity.\n\n\n\nNov 17, 2025\n\n\n\n\n\n\n\n\n\n\nEarly-Warning Indicators for Economic Coercion\n\n\nA practical indicator set for detecting escalation risk before formal coercive actions are announced.\n\n\n\nOct 28, 2025\n\n\n\n\n\n\n\n\n\n\nStranded Barrels And A Shrinking Oil Market\n\n\nWhat happens to reserve‑backed firms and petro‑states if demand declines permanently.\n\n\n\nOct 5, 2025\n\n\n\n\n\n\n\n\n\n\nIndustrial Policy Failure Modes: Where Incentives Go Off-Path\n\n\nWhy promising industrial policy programs fail in implementation, and how to design guardrails early.\n\n\n\nSep 16, 2025\n\n\n\n\n\n\n\n\n\n\nThe NDP’s Identity Problem\n\n\nWhy policy depth hasn’t translated into resonance—and how that gap formed.\n\n\n\nAug 30, 2025\n\n\n\n\n\n\n\n\n\n\nDefection And Cooperation In Repeated Games\n\n\nA short simulation of Prisoner’s Dilemma strategies and what actually wins.\n\n\n\nJul 22, 2025\n\n\n\n\n\n\n\n\n\n\nCanada’s Bedrock Opportunity\n\n\nResource abundance isn’t enough—export infrastructure and policy coherence decide the outcome.\n\n\n\nJun 14, 2025\n\n\n\n\n\n\n\n\n\n\nEV Industrial Policy For Canada\n\n\nWhat a Canadian EV strategy would look like if it prioritized capability, not just assembly.\n\n\n\nMay 9, 2025\n\n\n\n\n\n\n\n\n\n\nChina’s EV Policy Playbook\n\n\nHow sequencing subsidies, infrastructure, and standards built a global EV industry.\n\n\n\nApr 18, 2025\n\n\n\n\n\n\n\n\n\n\nCanada As An Airport Lounge\n\n\nWhy a resource-rich country can still feel like a pass-through economy—and what would change that.\n\n\n\nMar 12, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-07-22">
+<meta name="description" content="A short simulation of Prisoner’s Dilemma strategies and what actually wins.">
 
-<title>Blog – TADHG TAYLOR-MCGREAL</title>
+<title>Defection And Cooperation In Repeated Games – TADHG TAYLOR-MCGREAL</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2ec1ecde4794cf0ca2676fdbadd3167b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-2ec1ecde4794cf0ca2676fdbadd3167b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,68 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 6,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -141,7 +82,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">TADHG TAYLOR-MCGREAL</span>
     </a>
   </div>
@@ -152,27 +93,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../cv.html"> 
 <span class="menu-text">Cv</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./code.html"> 
+    <a class="nav-link" href="../code.html"> 
 <span class="menu-text">Code &amp; data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./notes.html"> 
+    <a class="nav-link" href="../notes.html"> 
 <span class="menu-text">Notes</span></a>
   </li>  
 </ul>
@@ -183,7 +124,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./assets/cv/Taylor-McGreal_CV.pdf"> <i class="bi bi-file-earmark-person" role="img">
+    <a class="nav-link" href="../assets/cv/Taylor-McGreal_CV.pdf"> <i class="bi bi-file-earmark-person" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -209,14 +150,25 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">Defection And Cooperation In Repeated Games</h1>
 </div>
 
+<div>
+  <div class="description">
+    A short simulation of Prisoner’s Dilemma strategies and what actually wins.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta column-page">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 22, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -226,289 +178,13 @@ window.Quarto = {
 </header>
 
 
-<p>Short essays on strategic competition, systemic risk, and the political economy of security.</p>
+<p>I simulated a modified Prisoner’s Dilemma with common strategies (Tit‑for‑Tat, Grudger, Pavlov, Always Defect, etc.) to see which behaviors dominate in mixed environments.</p>
+<p>The takeaway is not “always cooperate” or “always defect.” The best performers balance adaptability with deterrence. Highly forgiving strategies get exploited; rigid ones spiral into mutual punishment. The stable middle ground looks like conditional reciprocity with limited patience.</p>
+<p>That logic maps to real negotiations: durable cooperation requires credible retaliation and the ability to return to cooperation.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1770354000000" data-listing-file-modified-sort="1770350873068" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<a href="./posts/2026-02-06-strategic-frictions.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Strategic Frictions and Systemic Risk
-</h5>
-<div class="card-text listing-description delink">
-<p>Why small policy frictions can cascade through production networks and reshape power dynamics.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 6, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1769490000000" data-listing-file-modified-sort="1770515920987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
-<a href="./posts/2026-01-27-state-capacity-policy-execution-strategic-sectors.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-State Capacity and Policy Execution in Strategic Sectors
-</h5>
-<div class="card-text listing-description delink">
-<p>Strategic policy outcomes are constrained less by targets and more by administrative execution capacity.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jan 27, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1768194000000" data-listing-file-modified-sort="1770515728583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<a href="./posts/2026-01-12-rally-attendance.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Do Big Rallies Predict Big Wins?
-</h5>
-<div class="card-text listing-description delink">
-<p>A research design for testing whether rally attendance moves vote share in swing states.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jan 12, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1766034000000" data-listing-file-modified-sort="1770515920987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
-<a href="./posts/2025-12-18-when-reshoring-helps-when-it-raises-cost.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-When Reshoring Helps and When It Raises Systemic Cost
-</h5>
-<div class="card-text listing-description delink">
-<p>Reshoring improves resilience in some chains, but can reduce flexibility and raise system-wide cost in others.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Dec 18, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1764738000000" data-listing-file-modified-sort="1770515920987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
-<a href="./posts/2025-12-03-input-output-centrality-shock-propagation.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How Input-Output Centrality Predicts Shock Propagation
-</h5>
-<div class="card-text listing-description delink">
-<p>Why a sector’s network position can matter more than its size when shocks cascade through the economy.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Dec 3, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1763355600000" data-listing-file-modified-sort="1770515715012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
-<a href="./posts/2025-11-17-on-tfp.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Oil, Networks, And Canada’s TFP Slowdown
-</h5>
-<div class="card-text listing-description delink">
-<p>A network‑adjusted counterfactual for how oil shocks dragged aggregate productivity.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 17, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1761624000000" data-listing-file-modified-sort="1770515920987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
-<a href="./posts/2025-10-28-early-warning-indicators-economic-coercion.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Early-Warning Indicators for Economic Coercion
-</h5>
-<div class="card-text listing-description delink">
-<p>A practical indicator set for detecting escalation risk before formal coercive actions are announced.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 28, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1759636800000" data-listing-file-modified-sort="1770515700525" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<a href="./posts/2025-10-05-stranded-barrels.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Stranded Barrels And A Shrinking Oil Market
-</h5>
-<div class="card-text listing-description delink">
-<p>What happens to reserve‑backed firms and petro‑states if demand declines permanently.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 5, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1757995200000" data-listing-file-modified-sort="1770515920987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
-<a href="./posts/2025-09-16-industrial-policy-failure-modes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Industrial Policy Failure Modes: Where Incentives Go Off-Path
-</h5>
-<div class="card-text listing-description delink">
-<p>Why promising industrial policy programs fail in implementation, and how to design guardrails early.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 16, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1756526400000" data-listing-file-modified-sort="1770515684568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
-<a href="./posts/2025-08-30-ndp-identity.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The NDP’s Identity Problem
-</h5>
-<div class="card-text listing-description delink">
-<p>Why policy depth hasn’t translated into resonance—and how that gap formed.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 30, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1753156800000" data-listing-file-modified-sort="1770515666168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
-<a href="./posts/2025-07-22-defection-game-theory.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Defection And Cooperation In Repeated Games
-</h5>
-<div class="card-text listing-description delink">
-<p>A short simulation of Prisoner’s Dilemma strategies and what actually wins.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 22, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1749873600000" data-listing-file-modified-sort="1770515646795" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
-<a href="./posts/2025-06-14-bedrock-opportunity.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Canada’s Bedrock Opportunity
-</h5>
-<div class="card-text listing-description delink">
-<p>Resource abundance isn’t enough—export infrastructure and policy coherence decide the outcome.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 14, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="12" data-listing-date-sort="1746763200000" data-listing-file-modified-sort="1770515632328" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
-<a href="./posts/2025-05-09-ev-industrial-policy-canada.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-EV Industrial Policy For Canada
-</h5>
-<div class="card-text listing-description delink">
-<p>What a Canadian EV strategy would look like if it prioritized capability, not just assembly.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 9, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="13" data-listing-date-sort="1744948800000" data-listing-file-modified-sort="1770515618378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<a href="./posts/2025-04-18-china-ev-policy-lessons.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-China’s EV Policy Playbook
-</h5>
-<div class="card-text listing-description delink">
-<p>How sequencing subsidies, infrastructure, and standards built a global EV industry.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Apr 18, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="14" data-listing-date-sort="1741752000000" data-listing-file-modified-sort="1770515603080" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
-<a href="./posts/2025-03-12-canada-airport-lounge.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Canada As An Airport Lounge
-</h5>
-<div class="card-text listing-description delink">
-<p>Why a resource-rich country can still feel like a pass-through economy—and what would change that.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 12, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
